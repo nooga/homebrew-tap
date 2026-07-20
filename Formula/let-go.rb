@@ -5,20 +5,20 @@
 class LetGo < Formula
   desc "Clojure dialect implemented as a bytecode VM in Go"
   homepage "https://github.com/nooga/let-go"
-  version "1.11.1"
+  version "1.12.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nooga/let-go/releases/download/v1.11.1/let-go_1.11.1_darwin_amd64.tar.gz"
-      sha256 "6df7842edca3b0e52b71e4cdd7a69cbbcf7ede7812f30ab7041e917e550aac8a"
+      url "https://github.com/nooga/let-go/releases/download/v1.12.1/let-go_1.12.1_darwin_amd64.tar.gz"
+      sha256 "2e641522955bf158a49e41535cfcfdf02af05fd0a86a8a2f243dfb1847980b8a"
 
       define_method(:install) do
         bin.install "lg"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nooga/let-go/releases/download/v1.11.1/let-go_1.11.1_darwin_arm64.tar.gz"
-      sha256 "cced77046dd6d82c88ee7bc2d72b6d73a2fe525a13b0626c3f41e8f6ca230535"
+      url "https://github.com/nooga/let-go/releases/download/v1.12.1/let-go_1.12.1_darwin_arm64.tar.gz"
+      sha256 "fa7f3d0ea96e1a682d9313223cb89b7b1c468184c48de8bccf0092924df291f1"
 
       define_method(:install) do
         bin.install "lg"
@@ -28,22 +28,22 @@ class LetGo < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nooga/let-go/releases/download/v1.11.1/let-go_1.11.1_linux_amd64.tar.gz"
-      sha256 "1774f63b13772c53688fd5ebc3c33d6643d0c90eb1fbdf31d3ccb4d51a8dff46"
+      url "https://github.com/nooga/let-go/releases/download/v1.12.1/let-go_1.12.1_linux_amd64.tar.gz"
+      sha256 "f2811dc479b42fc38f6bf5f0ee2d089cb8095b9ae1ae097e6de962ac84a2bc1a"
       define_method(:install) do
         bin.install "lg"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/nooga/let-go/releases/download/v1.11.1/let-go_1.11.1_linux_arm.tar.gz"
-      sha256 "71331c688b74c4c7ce17d72ed3595b6eb398f1486ade9b153c7646ddb8831866"
+      url "https://github.com/nooga/let-go/releases/download/v1.12.1/let-go_1.12.1_linux_arm.tar.gz"
+      sha256 "90901f7a5ba08095a0833af73407337f187f5a16807715638a3ee42cceed88de"
       define_method(:install) do
         bin.install "lg"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nooga/let-go/releases/download/v1.11.1/let-go_1.11.1_linux_arm64.tar.gz"
-      sha256 "5b2e50e38612fe34fd599a4442676995285a5b4df22f00a69222d9f8113f4049"
+      url "https://github.com/nooga/let-go/releases/download/v1.12.1/let-go_1.12.1_linux_arm64.tar.gz"
+      sha256 "bad077097aa19397cdf90e57ecb4c3d3793fce4e34e9bb85a2dbaaf08e3a0c0d"
       define_method(:install) do
         bin.install "lg"
       end
