@@ -1,28 +1,28 @@
 class Legmacs < Formula
   desc "Terminal text editor scriptable in let-go, a Clojure-dialect Lisp"
   homepage "https://github.com/nooga/legmacs"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/nooga/legmacs/releases/download/v0.4.0/legmacs_0.4.0_darwin_arm64.tar.gz"
-      sha256 "9ba1397b22e47df1442350fa8e6bf1038ad6b80587e663171a7ba4c1ae3df7f2"
+      url "https://github.com/nooga/legmacs/releases/download/v0.5.0/legmacs_0.5.0_darwin_arm64.tar.gz"
+      sha256 "c3d20ba9c229a789f3e530c90ec0602ec0f605e1554d1d3ff5cca1b26b55f4f0"
     end
     on_intel do
-      url "https://github.com/nooga/legmacs/releases/download/v0.4.0/legmacs_0.4.0_darwin_amd64.tar.gz"
-      sha256 "656ab3d52c73a8fc7b0602f5d602d4ae7af71715c277424ca60e094de0875bd0"
+      url "https://github.com/nooga/legmacs/releases/download/v0.5.0/legmacs_0.5.0_darwin_amd64.tar.gz"
+      sha256 "45560d0bb5724f22b71f698f387e4926f535541ba597b9f3140155d81267e82b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/nooga/legmacs/releases/download/v0.4.0/legmacs_0.4.0_linux_arm64.tar.gz"
-      sha256 "9a5d540c7c09ef338685c072c278bc01c31808ac8af0135d7f5de7dd7fcf6856"
+      url "https://github.com/nooga/legmacs/releases/download/v0.5.0/legmacs_0.5.0_linux_arm64.tar.gz"
+      sha256 "d80acfa4adc23e2aef0d7de01220f1fc0430f8b5627bb56de23143b388eeb9c9"
     end
     on_intel do
-      url "https://github.com/nooga/legmacs/releases/download/v0.4.0/legmacs_0.4.0_linux_amd64.tar.gz"
-      sha256 "7b0ce74a450ba280b7241a74eaba9b754bc153864a7f632a4ce6a32f4a940ae6"
+      url "https://github.com/nooga/legmacs/releases/download/v0.5.0/legmacs_0.5.0_linux_amd64.tar.gz"
+      sha256 "d1ce5d7622cac6c3afb513311121ad021c88306c19930d64c87c9a9bb2267e69"
     end
   end
 
