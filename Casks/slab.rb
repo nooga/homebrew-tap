@@ -1,6 +1,6 @@
 cask "slab" do
-  version "0.0.3"
-  sha256 "95a8f36e57977f58f66c78eb4aaff3eb10ac1ac1f7d1bb78327e8afd1f2f70fc"
+  version "0.0.4"
+  sha256 "ca3ad39da0d2febfd6d667ae20b36ce8359d4c0260e9ba21b0c3fcff4bae98e8"
 
   url "https://github.com/nooga/slab/releases/download/v#{version}/Slab.zip"
   name "Slab"
